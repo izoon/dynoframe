@@ -6,9 +6,9 @@ from ..core.dyno_agent_with_tools import DynoAgentWithTools
 from ..dyno_llamaindex import DynoDataLoader
 from ..llama_index_compat import Document, VectorStoreIndex
 import openai
-from ..llm_provider_factory import LLMProviderFactory
-from ..llm_providers import LLMProvider
-from ..task_complexity import TaskComplexityAnalyzer
+from ..llm.llm_provider_factory import LLMProviderFactory
+from ..llm.llm_providers import LLMProvider
+from ..core.task_complexity import TaskComplexityAnalyzer
 
 class DynoRAGAgent(DynoAgentWithTools):
     """
