@@ -1,6 +1,6 @@
 from typing import List, Dict, Any, Optional, Union, Callable
 import os
-from llama_index_compat import (
+from .llama_index_compat import (
     Document,
     SimpleDirectoryReader,
     service_context_compat,
