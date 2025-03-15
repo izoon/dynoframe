@@ -7,9 +7,9 @@ import pdfplumber
 import pytesseract
 from PIL import Image
 import cv2
-from dyno_agent_with_tools import DynoAgentWithTools
-from dyno_llamaindex import DynoDataLoader
-from llama_index_compat import (
+from ..core.dyno_agent_with_tools import DynoAgentWithTools
+from ..dyno_llamaindex import DynoDataLoader
+from ..llama_index_compat import (
     Document,
     SimpleDirectoryReader,
     ServiceContext,

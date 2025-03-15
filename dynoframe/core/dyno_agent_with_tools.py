@@ -1,8 +1,8 @@
 from typing import List, Dict, Any, Optional, Union, Callable
 import os
-from dyno_agent import DynoAgent
-from dyno_llamaindex import DynoDataLoader
-from llama_index_compat import (
+from .dyno_agent import DynoAgent
+from ..dyno_llamaindex import DynoDataLoader
+from ..llama_index_compat import (
     Document,
     StorageContext,
     load_index_from_storage,
