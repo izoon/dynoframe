@@ -7,7 +7,7 @@ A framework for building dynamic agent-based systems with Large Language Models.
 You can install the package directly from GitHub:
 
 ```bash
-pip install git+https://github.com/yourusername/dynoframe.git
+pip install git+https://github.com/izoon/dynoframe.git
 ```
 
 ## Features
@@ -77,7 +77,7 @@ print(answer)
 
 ## Advanced Usage
 
-For advanced usage examples, see the [full documentation](https://github.com/yourusername/dynoframe).
+For advanced usage examples, see the [full documentation](https://github.com/izoon/dynoframe).
 
 ## License
 
