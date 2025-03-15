@@ -1,9 +1,9 @@
 import asyncio
 from typing import List, Dict, Set, Tuple, Any, Optional, Callable, Union
 import networkx as nx
-from dyno_agent import DynoAgent
-from pdf_processing_agent import PDFProcessingDecisionAgent
-from dyno_agent_with_tools import DynoAgentWithTools
+from .dyno_agent import DynoAgent
+from ..pdf.pdf_processing_agent import PDFProcessingDecisionAgent
+from .dyno_agent_with_tools import DynoAgentWithTools
 
 class Team:
     """
@@ -307,8 +307,8 @@ class Team:
 # Example usage
 if __name__ == "__main__":
     import asyncio
-    from dyno_agent import DynoAgent
-    from pdf_processing_agent import PDFProcessingDecisionAgent, ImagePreprocessor, OCRPreprocessor
+    from .dyno_agent import DynoAgent
+    from ..pdf.pdf_processing_agent import PDFProcessingDecisionAgent, ImagePreprocessor, OCRPreprocessor
     
     # Create agents
     ocr_agent = DynoAgent(
