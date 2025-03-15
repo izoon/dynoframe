@@ -13,7 +13,7 @@ from .llama_index_compat import (
     CSVReader,
     SimpleWebPageReader
 )
-from dyno_agent import DynoAgent
+from .core.dyno_agent import DynoAgent
 
 class DynoDataLoader:
     """Data loader utility for DynoAgent to interact with LlamaIndex."""
