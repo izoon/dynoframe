@@ -3,8 +3,8 @@ import json
 import requests
 from typing import Dict, List, Any, Optional, Union
 
-from openrouter_config import OpenRouterConfig
-from llm_providers import LLMProvider
+from .openrouter_config import OpenRouterConfig
+from .llm_providers import LLMProvider
 
 class OpenRouterProvider(LLMProvider):
     """OpenRouter API provider implementation for DynoFrame."""

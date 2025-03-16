@@ -2,8 +2,8 @@ import os
 import json
 from typing import Dict, Optional, Any
 
-from llm_providers import LLMProvider
-from openrouter_provider import OpenRouterProvider
+from .llm_providers import LLMProvider
+from .openrouter_provider import OpenRouterProvider
 
 
 class LLMProviderFactory:
